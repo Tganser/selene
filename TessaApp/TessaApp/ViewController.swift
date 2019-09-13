@@ -46,9 +46,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             return
         }
         let df = DateFormatter()
-        df.dateFormat = "yyyy-MM-dd"
+        df.dateFormat = "MMM dd, YYY"
         let now = df.string(from: Date())
-        let periodDate = "P \(now)"
+        let periodDate = "\(now)"
         data.insert(periodDate, at: 0)
         let indexPath:IndexPath = IndexPath(row: 0, section: 0)
         Table.insertRows(at: [indexPath], with: .automatic)
