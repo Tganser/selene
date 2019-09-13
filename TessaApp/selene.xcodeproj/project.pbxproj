@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D3962E0232B33A60062A0FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3962DF232B33A60062A0FE /* AppDelegate.swift */; };
+		2D3962E2232B33A60062A0FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3962E1232B33A60062A0FE /* ViewController.swift */; };
+		2D3962E5232B33A60062A0FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D3962E3232B33A60062A0FE /* Main.storyboard */; };
+		2D3962E7232B33A80062A0FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D3962E6232B33A80062A0FE /* Assets.xcassets */; };
+		2D3962EA232B33A80062A0FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D3962E8232B33A80062A0FE /* LaunchScreen.storyboard */; };
+		2D3962F5232B33A80062A0FE /* TessaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3962F4232B33A80062A0FE /* TessaAppTests.swift */; };
+		2D396300232B33A80062A0FE /* TessaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3962FF232B33A80062A0FE /* TessaAppUITests.swift */; };
+		2D6ADB72232B54CF0036583A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6ADB71232B54CF0036583A /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D3962F1232B33A80062A0FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D3962D4232B33A50062A0FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D3962DB232B33A50062A0FE;
+			remoteInfo = TessaApp;
+		};
+		2D3962FC232B33A80062A0FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D3962D4232B33A50062A0FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D3962DB232B33A50062A0FE;
+			remoteInfo = TessaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D3962DC232B33A60062A0FE /* selene.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = selene.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D3962DF232B33A60062A0FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D3962E1232B33A60062A0FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D3962E4232B33A60062A0FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D3962E6232B33A80062A0FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D3962E9232B33A80062A0FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D3962EB232B33A80062A0FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D3962F0232B33A80062A0FE /* seleneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seleneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D3962F4232B33A80062A0FE /* TessaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TessaAppTests.swift; sourceTree = "<group>"; };
+		2D3962F6232B33A80062A0FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D3962FB232B33A80062A0FE /* seleneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seleneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D3962FF232B33A80062A0FE /* TessaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TessaAppUITests.swift; sourceTree = "<group>"; };
+		2D396301232B33A80062A0FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D6ADB71232B54CF0036583A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D3962D9232B33A50062A0FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D3962ED232B33A80062A0FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D3962F8232B33A80062A0FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D3962D3232B33A50062A0FE = {
+			isa = PBXGroup;
+			children = (
+				2D3962DE232B33A60062A0FE /* TessaApp */,
+				2D3962F3232B33A80062A0FE /* TessaAppTests */,
+				2D3962FE232B33A80062A0FE /* TessaAppUITests */,
+				2D3962DD232B33A60062A0FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D3962DD232B33A60062A0FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D3962DC232B33A60062A0FE /* selene.app */,
+				2D3962F0232B33A80062A0FE /* seleneTests.xctest */,
+				2D3962FB232B33A80062A0FE /* seleneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D3962DE232B33A60062A0FE /* TessaApp */ = {
+			isa = PBXGroup;
+			children = (
+				2D3962DF232B33A60062A0FE /* AppDelegate.swift */,
+				2D3962E1232B33A60062A0FE /* ViewController.swift */,
+				2D6ADB71232B54CF0036583A /* DetailViewController.swift */,
+				2D3962E3232B33A60062A0FE /* Main.storyboard */,
+				2D3962E6232B33A80062A0FE /* Assets.xcassets */,
+				2D3962E8232B33A80062A0FE /* LaunchScreen.storyboard */,
+				2D3962EB232B33A80062A0FE /* Info.plist */,
+			);
+			path = TessaApp;
+			sourceTree = "<group>";
+		};
+		2D3962F3232B33A80062A0FE /* TessaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D3962F4232B33A80062A0FE /* TessaAppTests.swift */,
+				2D3962F6232B33A80062A0FE /* Info.plist */,
+			);
+			path = TessaAppTests;
+			sourceTree = "<group>";
+		};
+		2D3962FE232B33A80062A0FE /* TessaAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D3962FF232B33A80062A0FE /* TessaAppUITests.swift */,
+				2D396301232B33A80062A0FE /* Info.plist */,
+			);
+			path = TessaAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D3962DB232B33A50062A0FE /* selene */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D396304232B33A80062A0FE /* Build configuration list for PBXNativeTarget "selene" */;
+			buildPhases = (
+				2D3962D8232B33A50062A0FE /* Sources */,
+				2D3962D9232B33A50062A0FE /* Frameworks */,
+				2D3962DA232B33A50062A0FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = selene;
+			productName = TessaApp;
+			productReference = 2D3962DC232B33A60062A0FE /* selene.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D3962EF232B33A80062A0FE /* seleneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D396307232B33A80062A0FE /* Build configuration list for PBXNativeTarget "seleneTests" */;
+			buildPhases = (
+				2D3962EC232B33A80062A0FE /* Sources */,
+				2D3962ED232B33A80062A0FE /* Frameworks */,
+				2D3962EE232B33A80062A0FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D3962F2232B33A80062A0FE /* PBXTargetDependency */,
+			);
+			name = seleneTests;
+			productName = TessaAppTests;
+			productReference = 2D3962F0232B33A80062A0FE /* seleneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D3962FA232B33A80062A0FE /* seleneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D39630A232B33A80062A0FE /* Build configuration list for PBXNativeTarget "seleneUITests" */;
+			buildPhases = (
+				2D3962F7232B33A80062A0FE /* Sources */,
+				2D3962F8232B33A80062A0FE /* Frameworks */,
+				2D3962F9232B33A80062A0FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D3962FD232B33A80062A0FE /* PBXTargetDependency */,
+			);
+			name = seleneUITests;
+			productName = TessaAppUITests;
+			productReference = 2D3962FB232B33A80062A0FE /* seleneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D3962D4232B33A50062A0FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Tessa.Ganser;
+				TargetAttributes = {
+					2D3962DB232B33A50062A0FE = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					2D3962EF232B33A80062A0FE = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 2D3962DB232B33A50062A0FE;
+					};
+					2D3962FA232B33A80062A0FE = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 2D3962DB232B33A50062A0FE;
+					};
+				};
+			};
+			buildConfigurationList = 2D3962D7232B33A50062A0FE /* Build configuration list for PBXProject "selene" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D3962D3232B33A50062A0FE;
+			productRefGroup = 2D3962DD232B33A60062A0FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D3962DB232B33A50062A0FE /* selene */,
+				2D3962EF232B33A80062A0FE /* seleneTests */,
+				2D3962FA232B33A80062A0FE /* seleneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D3962DA232B33A50062A0FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D3962EA232B33A80062A0FE /* LaunchScreen.storyboard in Resources */,
+				2D3962E7232B33A80062A0FE /* Assets.xcassets in Resources */,
+				2D3962E5232B33A60062A0FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D3962EE232B33A80062A0FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D3962F9232B33A80062A0FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D3962D8232B33A50062A0FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D6ADB72232B54CF0036583A /* DetailViewController.swift in Sources */,
+				2D3962E2232B33A60062A0FE /* ViewController.swift in Sources */,
+				2D3962E0232B33A60062A0FE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D3962EC232B33A80062A0FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D3962F5232B33A80062A0FE /* TessaAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D3962F7232B33A80062A0FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D396300232B33A80062A0FE /* TessaAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D3962F2232B33A80062A0FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D3962DB232B33A50062A0FE /* selene */;
+			targetProxy = 2D3962F1232B33A80062A0FE /* PBXContainerItemProxy */;
+		};
+		2D3962FD232B33A80062A0FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D3962DB232B33A50062A0FE /* selene */;
+			targetProxy = 2D3962FC232B33A80062A0FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D3962E3232B33A60062A0FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D3962E4232B33A60062A0FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D3962E8232B33A80062A0FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D3962E9232B33A80062A0FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D396302232B33A80062A0FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D396303232B33A80062A0FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D396305232B33A80062A0FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUFKPB9747;
+				INFOPLIST_FILE = TessaApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TessaGanser.TessaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D396306232B33A80062A0FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUFKPB9747;
+				INFOPLIST_FILE = TessaApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TessaGanser.TessaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2D396308232B33A80062A0FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TessaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TessaGanser.TessaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/selene.app/selene";
+			};
+			name = Debug;
+		};
+		2D396309232B33A80062A0FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TessaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TessaGanser.TessaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/selene.app/selene";
+			};
+			name = Release;
+		};
+		2D39630B232B33A80062A0FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TessaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TessaGanser.TessaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TessaApp;
+			};
+			name = Debug;
+		};
+		2D39630C232B33A80062A0FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TessaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TessaGanser.TessaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TessaApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D3962D7232B33A50062A0FE /* Build configuration list for PBXProject "selene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D396302232B33A80062A0FE /* Debug */,
+				2D396303232B33A80062A0FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D396304232B33A80062A0FE /* Build configuration list for PBXNativeTarget "selene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D396305232B33A80062A0FE /* Debug */,
+				2D396306232B33A80062A0FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D396307232B33A80062A0FE /* Build configuration list for PBXNativeTarget "seleneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D396308232B33A80062A0FE /* Debug */,
+				2D396309232B33A80062A0FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D39630A232B33A80062A0FE /* Build configuration list for PBXNativeTarget "seleneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D39630B232B33A80062A0FE /* Debug */,
+				2D39630C232B33A80062A0FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D3962D4232B33A50062A0FE /* Project object */;
+}
