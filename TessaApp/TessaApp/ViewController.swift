@@ -18,7 +18,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        self.title = "Periods/Cycles"
+        self.title = "Cycles"
         let addButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addPeriod))
         self.navigationItem.rightBarButtonItem = addButton
         self.navigationItem.leftBarButtonItem = editButtonItem
